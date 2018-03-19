@@ -4,7 +4,7 @@
 #
 #-------------------------------------------------
 
-QT       += core gui webkit
+QT       += core gui webkit webkitwidgets webenginewidgets
 
 TARGET = demo
 TEMPLATE = app
