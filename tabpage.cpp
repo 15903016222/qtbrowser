@@ -24,6 +24,7 @@ void TabPage::handleNewTab()
     HtmlView *view = new HtmlView;
     view->load(QUrl("qrc:/html/welcome.html"));
     //view->page()->setForwardUnsupportedContent(true);
+    // 激活所有的二级链接
     view->page()->setLinkDelegationPolicy(QWebPage::DelegateAllLinks);
 
     // Monitor linkClicked signal    
